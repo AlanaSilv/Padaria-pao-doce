@@ -19,7 +19,7 @@ use function PHPSTORM_META\type;
 
 $acess_token = "TEST-1870176291907586-092120-5de678394e7322f727d489629bb8e315-476013376";
 
-require_once 'C:\Users\Edson\Desktop\Versão Final Código\Padaria-pao-doce\sitepadaria\vendor\autoload.php';
+//require_once 'C:\Users\Edson\Desktop\Versão Final Código\Padaria-pao-doce\sitepadaria\vendor\autoload.php';
 
     MercadoPago\SDK::setAccessToken($acess_token);
 
