@@ -4,6 +4,8 @@
 
 @section('content')
 
+<div id="search-container" class="col-md-12"></div>
+
 <div class="col-md-12 dashboard-product-container">
     <div class="row">
     <div class="col-md-2 text-center">
@@ -31,9 +33,9 @@
                     @endforeach
                 </tbody>
             </table>
-            <p><a href="/">Voltar para pagina inicial.</a></p>
+            <p><a href="/">Voltar para pagina inicial</a></p>
             @else
-            <p>Não há vendas cadastradas, <a href="/">voltar para pagina inicial.</a></p>
+            <p>Não há vendas cadastradas:  <a href="/">voltar para pagina inicial.</a></p>
             @endif
         </div>
     </div>

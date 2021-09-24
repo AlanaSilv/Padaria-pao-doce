@@ -10,6 +10,7 @@
     <div class="row">
     <div class="col-md-2 text-center">
             <a href="/cadastro/cadastroprodutos"  class="btn btn-warning" id="cadastro2-submit">Cadastrar Produto</a>
+            <a href="/relatoriovendas"  class="btn btn-warning" id="cadastro2-submit">Relatório Vendas</a>
         </div>
         <div class="col-md-10">
             @if(count($products)>0)

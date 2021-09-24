@@ -123,6 +123,7 @@ $acess_token = "TEST-1870176291907586-092120-5de678394e7322f727d489629bb8e315-47
 
 
     <a href={{$link}} id="btnpagamento" class="btn btn-success" >Pagar</a>
+    
 
 @else
 <p>Não existem produtos no carrinho!</p>
